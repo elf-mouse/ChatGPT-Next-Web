@@ -48,6 +48,11 @@ export default function RootLayout({
           crossOrigin="use-credentials"
         ></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script
+            src="https://analytics.balmjs.com/api/script.js"
+            data-site-id="9"
+            defer
+        ></script>
       </head>
       <body>
         {children}
